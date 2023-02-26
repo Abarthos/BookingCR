@@ -1,0 +1,15 @@
+{
+  "name": "template-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w sass:public/css",
+    "sass-build": "sass -w sass:public-build/css -s compressed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.56.0"
+  }
+}
