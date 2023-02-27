@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 body{
@@ -14,3 +16,21 @@ flex-direction: column;
 @import "_img.scss";
 @import "_paletaColors.scss";
 @import "_fonts.scss";
+
+@import "__form.scss";
+@import"_mixing.scss";
+@import "_login.scss";
+@import "__responsive.scss";
+
+
+
+@import "__header.scss";
+@import "__main.scss";
+@import "__body.scss";
+@import "__article.scss";
+@import "__footer.scss";
+@import "medias-queries";
+
+@import "components/double-button";
+@import "components/fate-photos";
+@import "components/card-to-see";
