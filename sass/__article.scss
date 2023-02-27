@@ -1,0 +1,53 @@
+.tittle-3{
+  margin-top: 5%;
+  margin-left: 10%;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+
+}
+.img-lest-size{
+ @include mobile{
+  height: 275px;
+ }
+
+}
+
+.display-article{
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 5%;
+
+  /*Nuevo Branch Tablet*/
+  @include tablet {
+    padding-left: 17%;
+    gap: 3%;
+
+  }
+
+  @include mobile{
+    padding-left: 111%;
+  }
+
+}
+
+.p-article-span{
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: white;
+  position: relative;
+  bottom: 13%;
+  left: 6%;
+}
+
+.span{
+  font-weight: lighter;
+  font-size: 10px;
+  font-family: -webkit-body;
+}
+
+
+.box-text{
+  height: 200px;
+  width: 250px;
+}
