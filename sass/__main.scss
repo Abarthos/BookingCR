@@ -1,0 +1,59 @@
+.display-main{
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  margin-top: 5%;
+  margin-right: 5%;
+
+  @include mobile{
+    display: flex;
+    gap: 0%;
+    margin-top: 10%;
+    margin-left: 2%;
+    align-items: flex-start;
+  }
+
+}
+
+.Tittle-two{
+  display: flex;
+  flex-direction: column;
+  padding-left: 7%;
+  margin-right: 10%;
+  gap: 60px;
+
+  /*Nuevo Branch Tablet*/
+  @include tablet{
+    gap: 25px;
+  }
+}
+
+.tittle-2{
+  color: black;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+
+  /*Nuevo Branch Tablet*/
+  @include tablet{
+    font-size: 35px;
+  }
+
+  @include mobile{
+    font-size: 25px;
+  }
+
+}
+
+.p-main{
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+
+  @include tablet {
+    font-size: 10px;
+  }
+
+  @include mobile {
+    font-size: 9px;
+  }
+
+}
