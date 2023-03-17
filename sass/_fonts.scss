@@ -8,11 +8,17 @@
 }
 
 .font{
-  font-family: 'Krub', sans-serif;
+  font-family: "Montserrat", sans-serif;
   @include Fonts;
 }
 
-.font-2{
+
+/* .font{
+  font-family: 'Krub', sans-serif;
+  @include Fonts;
+} */
+
+/* .font-2{
   font-family: 'Inter', sans-serif;
   @include Fonts;
 }
@@ -25,4 +31,4 @@
 .font-4{
   font-family: 'Italiana', serif;
   @include Fonts;
-}
+} */
